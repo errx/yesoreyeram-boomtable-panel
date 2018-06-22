@@ -22,6 +22,7 @@ System.register(["./app/app", "lodash"], function(exports_1) {
                     _super.call(this, $scope, $injector);
                     this.unitFormats = app_1.kbn.getUnitFormats();
                     this.valueNameOptions = app_1.config.valueNameOptions;
+                    this.fontSizes = app_1.config.fontSizes;
                     lodash_1.default.defaults(this.panel, app_1.config.panelDefaults);
                     this.events.on("data-received", this.onDataReceived.bind(this));
                     this.events.on("init-edit-mode", this.onInitEditMode.bind(this));

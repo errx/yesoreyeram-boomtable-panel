@@ -13,6 +13,7 @@ class GrafanaBoomTableCtrl extends MetricsPanelCtrl {
   static templateUrl: string = "partials/module.html";
   unitFormats: any = kbn.getUnitFormats();
   valueNameOptions: Object = config.valueNameOptions;
+  fontSizes: string[] = config.fontSizes;
   dataReceived: any;
   ctrl:any;
   elem:any;
