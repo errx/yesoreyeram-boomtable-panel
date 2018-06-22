@@ -34,7 +34,8 @@ const config: any = {
             null_value: "No data"
         },
         activePatternIndex: -1,
-        default_title_for_rows: "Metric"
+        default_title_for_rows: "Metric",
+        fontSize: "100%",
     },
     list_of_stylesheets: {
         dark: "plugins/" + plugin_id + "/css/default.dark.css",
@@ -68,7 +69,16 @@ const config: any = {
     {
         value: "total",
         text: "Total"
-    }
+    },
+    ],
+    fontSizes: [
+        "50%",
+        "100%",
+        "150%",
+        "200%",
+        "250%",
+        "300%",
+        "350%",
     ],
 };
 
